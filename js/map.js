@@ -2,10 +2,7 @@
 var map, searchManager;
 function GetMap() {
     map = new Microsoft.Maps.Map('#map', {});
-    Microsoft.Maps.loadModule('Microsoft.Maps.AutoSuggest', function () {
-        var manager = new Microsoft.Maps.AutosuggestManager({ map: map });
-        manager.attachAutosuggest('#place', '#searchBoxContainer', selectedSuggestion);
-    });
+   
 }
 function Search() {
     if (!searchManager) {
