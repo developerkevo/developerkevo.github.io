@@ -47,11 +47,6 @@ function show(data) {
         $(".hum").html(hum);
         
 
-        //for dev testing  if it works
-       console.log(temp);
-        console.log(cloud); 
-        console.log(windDirection); 
-        console.log(windspeed);
-        console.log(hum);
+      
 
     }
